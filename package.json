@@ -1,0 +1,25 @@
+{
+  "name": "project-setup",
+  "version": "1.0.0",
+  "description": "template for setting up a project with webpack, hbs & sass",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushlet/project-setup.git"
+  },
+  "author": "becky rush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushlet/project-setup/issues"
+  },
+  "homepage": "https://github.com/rushlet/project-setup#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
